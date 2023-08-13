@@ -1,0 +1,8 @@
+[Unit]
+Description=Upload kernel logs to Dropbox
+
+[Timer]
+OnCalendar=--* 00:00
+
+[Install]
+WantedBy=timers.target
